@@ -3,8 +3,6 @@ import keyboard
 import pyautogui
 import time
 import threading
-import win32api
-import win32con
 
 def getWindowFocus():
 	return win32gui.GetWindowText(win32gui.GetForegroundWindow()) == "Idle Skilling"

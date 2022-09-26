@@ -8,7 +8,7 @@ def getWindowFocus():
 	return win32gui.GetWindowText(win32gui.GetForegroundWindow()) == "Idle Skilling"
 
 def spamKeys():
-	keys = ['1', '2', '3', '4', '5', 'q', '1', '2', '3', '4', '5', 'q']
+	keys = ['1', '2', '3', '4', '5', 'q']
 	while True:
 		for key in keys:
 			if getWindowFocus():
